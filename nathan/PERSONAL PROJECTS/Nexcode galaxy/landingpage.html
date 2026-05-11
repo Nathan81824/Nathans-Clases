@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <!-- background: radial-gradient(circle at top, #1e293b, #020617) -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nexcode Galaxy</title>
+
+  <link rel="stylesheet" href="landing page.css">
+</head>
+<body>
+
+<!-- HERO SECTION -->
+<section class="hero">
+    <div class="overlay">
+         <!-- NAVBAR -->
+  <header class="navbar">
+    <h1 class="logo">Nexcode Galaxy</h1>
+
+    <nav>
+      <a href="#">How we work</a>
+      <a href="#">Features</a>
+      <a href="aboutpage.html">About</a>
+      <a href="#">Pricing</a>
+    </nav>
+
+    <button class="sign-btn">Sign in</button>
+  </header>
+
+  <!-- HERO CONTENT -->
+  <div class="hero-content">
+
+    <div class="tag">
+      ✨ AI Powered Code Assistant
+    </div>
+
+    <h1>
+      Smarter <span>Debugging</span><br>
+      Faster <span>Shipping</span> Together
+    </h1>
+
+    <p>
+      One platform for issues, logs, snippets and AI-powered suggestions.
+    </p>
+
+    <button class="glow-btn">Try Free Trial</button>
+
+  </div>
+          <div class="llop">
+   <a href="message.html">
+<button class="mnj">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-send-horizontal-icon lucide-send-horizontal">
+        <path d="M3.714 3.048a.498.498 0 0 0-.683.627l2.843 7.627a2 2 0 0 1 0 1.396l-2.842 7.627a.498.498 0 0 0 .682.627l18-8.5a.5.5 0 0 0 0-.904z"/>
+        <path d="M6 12h16"/>
+    </svg>
+    <h3 style="color: white; margin-bottom: 1rem; margin-left: -.8rem; margin-right: 1rem;">Messages</h3>
+    
+    <!-- Images with original classes and borders -->
+    <img id="img1" class="gfv rotating" src="mel-tech-ceo-Moses-Monday.webp" alt="Rotating image" height="20px">
+    <img id="img2" class="g rotating" src="Maryann-Pauline-Samuels.webp" alt="Rotating image" height="20px">
+    <img id="img3" class="lb rotating" src="Victory-George.webp" alt="Rotating image" height="20px">
+</button>
+
+<script>
+    const images = [
+        "mel-tech-ceo-Moses-Monday.webp",
+        "Maryann-Pauline-Samuels.webp",
+        "Victory-George.webp",
+         "sophie.jpg",
+        "Nkanu-Sunday.webp",
+        "isaac.webp",
+        "humphrey.webp",
+        "Pedro-Diaz.webp",
+        "Richard-Chilee.webp"
+    ];
+
+    const rotatingImgs = document.querySelectorAll(".rotating");
+    let index = 0;
+
+    setInterval(() => {
+        index = (index + 1) % images.length;
+        rotatingImgs.forEach((img, i) => {
+            img.src = images[(index + i) % images.length];
+        });
+    }, 4000); // Change every 1 second
+</script>
+
+     </button>
+   </a>
+
+</section>
+
+
+<!-- SECOND SECTION -->
+<section class="second">
+
+  <h2 style="color: white;">Build Smarter. Ship Faster.</h2>
+
+  <p style="color: white;">
+    Nexcode Galaxy helps developers create stunning applications using
+    powerful AI tools and modern UI components.
+  </p>
+
+  <div class="cards">
+    <div class="card">⚡ Fast Development</div>
+    <div class="card">🤖 AI Powered</div>
+    <div class="card">🎨 Clean UI</div>
+  </div>
+
+    </div>
+</section>
+<section class="how">
+
+  <h2>How It Works</h2>
+
+  <div class="steps">
+
+    <div class="step">
+      <h3>1. Start a Project</h3>
+      <p>Create and manage your coding projects </p>
+    </div>
+
+    <div class="step">
+      <h3>2. Use AI Tools</h3>
+      <p>Get smart suggestions, debugging help, and faster solutions.</p>
+    </div>
+
+    <div class="step">
+      <h3>3. Ship Faster</h3>
+      <p>Deploy your apps quickly with confidence and clean UI.</p>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="image-section">
+
+  <div class="image-container">
+    <img src="f6b1b715-cf31-4a7e-9603-1b63c938f0be.png" alt="AI Dashboard">
+  </div>
+
+  <div class="text-container">
+    <h2>Powerful AI Interface</h2>
+    <p>
+      Experience a clean and intelligent workspace designed to help you
+      debug faster, build smarter, and ship with confidence.
+    </p>
+
+    <button class="glow-btn">Explore More</button>
+  </div>
+
+</section>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+* {
+  text-decoration: none;
+}
+
+.btn1 {
+  padding: 0.5rem 0.5rem;
+  background-color: orangered;
+  color: greenyellow;
+  border: 1px solid greenyellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn1:hover {
+  background-color: greenyellow;
+  color: orangered;
+  border: 1px solid orangered;
+  transform: translateY(-4px);
+  transform: translateX(-41px);
+}
+
+.btn {
+  display: flex;
+  margin-top: 12rem;
+  justify-content: center;
+}

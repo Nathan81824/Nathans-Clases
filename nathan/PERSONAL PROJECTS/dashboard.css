@@ -1,0 +1,81 @@
+.sis{
+    border-radius: 4rem;
+    background-color: rgba(0, 0, 0, 0.822);
+    color: white;
+    text-decoration: none;
+    width: 29rem;
+    padding: -.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid rgb(255, 255, 255);
+    height: 3rem;
+}
+
+.blu{
+  border-radius: 2rem;
+  background-color: rgb(42, 42, 255);
+  padding: .7rem;
+  margin-left: -1.5rem;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: -.1px  solid ;
+  width: 7rem;
+}
+
+body{
+    background-color: black;
+}
+
+.search{
+    background-color: rgba(0, 0, 0, 0.822);
+    border-radius: 2rem;
+    border: 1px solid white;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.lucide-search-icon{
+    color: white;
+}
+
+::placeholder{
+    color: white;
+    /* margin-left */
+}
+.search__bar {
+    display: flex;
+    border: 1px solid white;
+    max-width: fit-content;
+    border-radius: 3rem;
+    justify-content: space-around;
+    align-items: center;
+    padding: .1rem .4rem;
+
+}
+.search__bar input {
+    border: none;
+    outline: none;
+}
+
+.lucide-sun-medium{
+    color: white ;
+    border-color: white;
+    border-radius: 2rem;
+}
+
+.icon{
+   border-radius: 28rem;
+   border-color: white;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

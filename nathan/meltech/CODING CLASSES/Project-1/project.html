@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="project.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div style="color: rgb(241, 241, 255)" class="logo">
+        Nathan<span>.</span>
+      </div>
+
+      <nav class="nav">
+        <a href="#">Home</a>
+        <a href="contact.html">Contact</a>
+        <a href="about.html">About</a>
+      </nav>
+
+      <div class="buttons">
+        <a href="sign.html">
+          <button class="btn1">Sign in</button>
+        </a>
+                <a href="contact.html">
+            <button class="btn2">Hire me</button>
+        </a>
+      </div>
+    </header>
+    <main>
+      <!-- HERO -->
+      <section class="hero">
+        <div class="container hero__inner">
+          <div class="hero__text">
+            <p class="hero__icon">Hello, I'm</p>
+            <h1 class="hero__name">Nathan</h1>
+            <h2 class="hero__title">Front end Developer & UI Designer</h2>
+            <p class="hero__desc">
+              I build beautiful, responsive websites thatnwork flawlessly on
+              everyday device. Turning ideas into clean, modern digital
+              expierences.
+            </p>
+            <div class="hero__btns">
+              <a href="about.html" class="btn btn--primary">View my work</a>
+              <a href="contact.html" class="btn btn--ghost">Let's Talk</a>
+            </div>
+            <div class="hero__stats">
+              <div class="stat">
+                <span class="stat__number">4+</span>
+                <span class="stat__label">Years of expirience</span>
+              </div>
+              <div class="stat__divider"></div>
+              <div class="stat">
+                <span class="stat__number">50+</span>
+                <span class="stat__label">Project done</span>
+              </div>
+              <div class="stat__divider"></div>
+              <div class="stat">
+                <span class="stat__number">39+</span>
+                <span class="stat__label">Happy Clients</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero__img-wrap">
+            <img
+              src="photo-1575089976121-8ed7b2a54265.avif"
+              alt="Nathan"
+              class="hero__img"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- ========== SERVICES ========== -->
+    <section class="services section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow">What I Do</p>
+          <h2 class="section-title">Services I Offer</h2>
+          <p class="section-sub">
+            Focused on creating polished digital products from concept to
+            deployment.
+          </p>
+        </div>
+        <div class="services__grid">
+          <article class="service-card">
+            <div class="service-card__icon">🎨</div>
+            <h3>UI / UX Design</h3>
+            <p>
+              Clean, intuitive interfaces designed with the user in mind.
+              Wireframes, prototypes, and final visual design.
+            </p>
+          </article>
+          <article class="service-card">
+            <div class="service-card__icon">💻</div>
+            <h3>Frontend Development</h3>
+            <p>
+              Pixel-perfect, responsive HTML & CSS with modern JavaScript.
+              Fast-loading and accessible on all devices.
+            </p>
+          </article>
+          <article class="service-card service-card--featured">
+            <div class="service-card__icon">⚙️</div>
+            <h3>Full-Stack Web Apps</h3>
+            <p>
+              End-to-end web applications with databases, APIs, authentication,
+              and deployment. Ready to scale.
+            </p>
+          </article>
+          <article class="service-card">
+            <div class="service-card__icon">📱</div>
+            <h3>Responsive Design</h3>
+            <p>
+              Every project works beautifully from mobile phones to ultra-wide
+              screens. No compromises.
+            </p>
+          </article>
+          <article class="service-card">
+            <div class="service-card__icon">🚀</div>
+            <h3>Performance Optimisation</h3>
+            <p>
+              Speed audits, image compression, lazy loading, and caching
+              strategies that make sites lightning fast.
+            </p>
+          </article>
+          <article class="service-card">
+            <div class="service-card__icon">🔍</div>
+            <h3>SEO & Analytics</h3>
+            <p>
+              On-page SEO best practices and analytics setup to help your
+              website get found and grow.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+ <section class="work section section--dark">
+        <div class="container">
+          <div class="section-header section-header--light">
+            <p class="section-eyebrow section-eyebrow--light">Portfolio</p>
+            <h2 class="section-title">Featured Projects</h2>
+          </div>
+          <div class="work__grid">
+            <article class="project-card">
+              <div class="project-card__img">
+                <img
+                  src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop"
+                  alt="E-commerce Dashboard"
+                />
+                <div class="project-card__overlay">
+                  <a href="about.html" class="btn btn--white">View Project</a>
+                </div>
+              </div>
+              <div class="project-card__body">
+                <div class="project-card__tags">
+                  <span class="tag">React</span>
+                  <span class="tag">CSS Grid</span>
+                  <span class="tag">Node.js</span>
+                </div>
+                <h3>E-commerce Dashboard</h3>
+                <p>
+                  A full analytics dashboard for an online store with live sales
+                  data, inventory management, and reporting.
+                </p>
+              </div>
+            </article>
+            <article class="project-card">
+              <div class="project-card__img">
+                <img
+                  src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&h=400&fit=crop"
+                  alt="Travel App"
+                />
+                <div class="project-card__overlay">
+                  <a href="about.html" class="btn btn--white">View Project</a>
+                </div>
+              </div>
+              <div class="project-card__body">
+                <div class="project-card__tags">
+                  <span class="tag">HTML</span>
+                  <span class="tag">CSS</span>
+                  <span class="tag">JavaScript</span>
+                </div>
+                <h3>Travel Booking App</h3>
+                <p>
+                  A travel platform with destination search, booking flow, and
+                  real-time availability using an external API.
+                </p>
+              </div>
+            </article>
+            <article class="project-card">
+              <div class="project-card__img">
+                <img
+                  src="https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=600&h=400&fit=crop"
+                  alt="Brand Website"
+                />
+                <div class="project-card__overlay">
+                  <a href="about.html" class="btn btn--white">View Project</a>
+                </div>
+              </div>
+              <div class="project-card__body">
+                <div class="project-card__tags">
+                  <span class="tag">Flexbox</span>
+                  <span class="tag">GSAP</span>
+                  <span class="tag">Figma</span>
+                </div>
+                <h3>Startup Brand Website</h3>
+                <p>
+                  A marketing site for a SaaS startup with scroll animations,
+                  pricing tables, and a full CMS integration.
+                </p>
+              </div>
+            </article>
+          </div>
+          <div class="work__cta">
+            <a href="about.html" class="btn btn--primary">See All Projects</a>
+          </div>
+        </div>
+      </section>
+
+  <section class="testimonials section">
+        <div class="container">
+          <div class="section-header">
+            <p class="section-eyebrow">Testimonials</p>
+            <h2 class="section-title">What Clients Say</h2>
+          </div>
+          <div class="testimonials__grid">
+            <blockquote class="testimonial-card">
+              <p>
+                "Alex delivered a website that exceeded every expectation.
+                Clean, fast, and exactly what our brand needed. Highly
+                recommended."
+              </p>
+              <footer>
+                <img
+                  src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=60&h=60&fit=crop&crop=face"
+                  alt="Sarah K."
+                />
+                <div>
+                  <strong>Sarah K.</strong><span>CEO, BrightStart Agency</span>
+                </div>
+              </footer>
+            </blockquote>
+            <blockquote class="testimonial-card">
+              <p>
+                "Professional, responsive, and incredibly talented. Our new
+                platform has 3x the engagement since the redesign. Brilliant
+                work."
+              </p>
+              <footer>
+                <img
+                  src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=60&h=60&fit=crop&crop=face"
+                  alt="David O."
+                />
+                <div>
+                  <strong>David O.</strong
+                  ><span>Product Manager, Nexus Tech</span>
+                </div>
+              </footer>
+            </blockquote>
+            <blockquote class="testimonial-card">
+              <p>
+                "The attention to detail is incredible. Alex noticed UX issues
+                we hadn't even thought of and fixed them without being asked. A
+                true professional."
+              </p>
+              <footer>
+                <img
+                  src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=60&h=60&fit=crop&crop=face"
+                  alt="Amara D."
+                />
+                <div>
+                  <strong>Amara D.</strong><span>Founder, StyleHive</span>
+                </div>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+    <section class="dfooter">
+    <div class="hold">
+        <p>
+        <span style="color: white; font-size: 2rem; font-weight: 600; letter-spacing: .1rem;">Have a project in mind?</span><br> <span style="color: white;">Let's build something great together. I'm available for freelance work.</span>
+        </p>
+      <a href="contact.html"><button class="startbtn">Start a Conversation</button></a>
+    </div>
+    </section>
+     <section class="mfooter">
+        <div><p class="footer__logo">Nathan<span>.</span></p></div>
+      <div style="color: rgba(255, 255, 255, 0.247);">© 2025 Nathan Moses. All rights reserved.</div>
+      <div>      <nav class="nav">
+        <a href="#">Home</a>
+        <a href="contact.html">Contact</a>
+        <a href="about.html">About</a>
+      </nav></div>
+   </div>
+  </body>
+</html>
